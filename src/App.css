@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+
+ 
+}
+
+
+.music-search {
+  
+  margin: 10px;
+
+}
+.music-result {
+
+  
+  margin: 10px;
+
+}
