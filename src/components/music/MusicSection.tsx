@@ -49,7 +49,9 @@ export const MusicSection: React.FC<MusicSectionProps> = ({
             <h3>Result</h3>
             {status === "loading" && <CircularProgress />}
             <h4> {status}</h4>
-            <h4>{JSON.stringify(searchResults)}</h4>
+            {searchResults.slice(0, 20).map((item) => {
+              return <div key={item.id}>{item.title}</div>;
+            })}
           </Paper>
         </div>
       </div>
