@@ -1,7 +1,7 @@
 import { MusicBO } from "./../../BO/music";
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { fetchData } from "../../api/fetch-data";
-import { initialData } from "../../api/example-data";
+import { initialData } from "./ExampleData";
 
 export const searchMusicAsync: any = createAsyncThunk(
   "fetchData",
@@ -22,6 +22,9 @@ export const musicSlice = createSlice({
     builder
       .addCase(searchMusicAsync.pending, (state) => {
         state.status = "loading";
+      })
+      .addCase(searchMusicAsync.rejected, (state) => {
+        state.status = "failed";
       })
       .addCase(
         searchMusicAsync.fulfilled,

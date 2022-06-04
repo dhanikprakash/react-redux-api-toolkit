@@ -1,4 +1,4 @@
-import { MusicBO } from "./../BO/music";
+import { MusicBO } from "../../BO/music";
 
 export const exampleData: MusicBO[] = [
   {

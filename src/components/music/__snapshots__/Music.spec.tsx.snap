@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicSection should render 1`] = `
+<div
+  className="flex-container"
+>
+  <div
+    className="music-search"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 css-1qz17ui-MuiPaper-root"
+      style={
+        Object {
+          "padding": 30,
+        }
+      }
+    >
+      <h3>
+        Search
+      </h3>
+      <div
+        className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <label
+          className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-root MuiFormLabel-colorPrimary css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink={false}
+          htmlFor="music-search"
+          id="music-search-label"
+        >
+          Music / Song / Artist
+        </label>
+        <div
+          className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1ptx2yq-MuiInputBase-root-MuiInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInput-input MuiInputBase-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+            disabled={false}
+            id="music-search"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+  <div
+    className="music-result"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 css-1qz17ui-MuiPaper-root"
+      style={
+        Object {
+          "height": 500,
+          "padding": 20,
+        }
+      }
+    >
+      <h3>
+        Result
+      </h3>
+      <h4>
+         
+        idle
+      </h4>
+      <div />
+    </div>
+  </div>
+</div>
+`;
